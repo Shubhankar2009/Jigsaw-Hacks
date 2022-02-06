@@ -1,0 +1,59 @@
+.mainul{
+    list-style: none;
+    font-size: 30px;
+}
+
+.play{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 5vh;
+    width: 7vw;
+    font-size: 25px;
+    float: right;
+    margin-right: 3%;
+}
+
+.play:hover{
+    background-color: darkred;
+}
+
+body{
+    padding: 10px;
+}
+
+hr{
+    width: 99%;
+}
+
+@media (max-width:1024px) {
+    .play{
+        margin-right: 5%;
+        width: 8vw;
+    }
+}
+
+@media (max-width:768px) {
+    .play{
+        margin-right: 5%;
+        width: 10vw;
+    }
+}
+
+@media (max-width:425px) {
+    .play{
+        width: 20vw;
+    }
+    .mainul{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:320px) {
+    .play{
+        width: 25vw;
+    }
+    .mainul{
+        font-size: 25px;
+    }
+}

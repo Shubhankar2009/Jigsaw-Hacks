@@ -1,0 +1,92 @@
+.landingpagetitle{
+    text-align: center;
+    font-size: 110px;
+    margin-top: 10%;
+    color: white;
+    font-weight: 900;
+}
+
+.landingbtn{
+    width: 400px;
+    height: 110px;
+    font-size: 40px;
+    margin-left: 40%;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.landingbtn:hover{
+    background-color: darkcyan;
+}
+
+body{
+    background-image: url("https://www.ideaforge.co.in/wp-content/uploads/2019/03/Traffic-Monitoring_Header-1.jpg");
+
+}
+
+@media (max-width:1440px) {
+    .landingbtn{
+        margin-left: 36%;
+    }
+}
+
+@media (max-width:1024px) {
+    .landingbtn{
+        margin-left: 32%;
+    }
+    .landingpagetitle{
+        font-size: 90px;
+    }
+}
+
+@media (max-width:768px) {
+    .landingbtn{
+        margin-left: 25%;
+        
+    }
+    .landingpagetitle{
+        font-size: 70px;
+    }
+
+}
+
+
+
+@media (max-width:425px) {
+    .landingbtn{
+        margin-left: 15%;
+        width: 300px;
+        height: 110px;
+        font-size: 30px;
+    }
+    .landingpagetitle{
+        font-size: 60px;
+    }
+}
+
+@media (max-width:375px) {
+    .landingbtn{
+        margin-left: 14%;
+        width: 250px;
+        height: 90px;
+        font-size: 25px;
+    }
+    .landingpagetitle{
+        font-size: 50px;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:320px) {
+    .landingbtn{
+        margin-left: 14%;
+        width: 200px;
+        height: 90px;
+        font-size: 25px;
+    }
+    .landingpagetitle{
+        font-size: 50px;
+        margin-top: 10%;
+    }
+}
