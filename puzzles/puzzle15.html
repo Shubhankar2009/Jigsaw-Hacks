@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle 15</title>
+    <link rel="stylesheet" href="puzzle_style.css">
+</head>
+<body>
+    <p class="question">_ _ _ _ _ _ _ _ _ _ CROSSING</p>
+
+    <img src="https://5.imimg.com/data5/FB/SX/MY-11406557/pedestrian-crossing-sign-board-500x500.jpg" alt="puzzle-img" class="image">
+    
+    <div class="answer">
+        <div id="divmain1" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="divmain2" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="divmain3" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="divmain4" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="divmain5" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="divmain6" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="divmain7" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="divmain8" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="divmain9" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="divmain10" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    
+    <button class="submit" onclick="Puzzle15sumbit()" data-modal-target="#modal">SUBMIT</button>
+    
+    <div class="options">
+
+        <div id="div1" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">E</h2>
+    
+        </div>
+          <div id="div2" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="31">R</h2>
+    
+        </div>
+          <div id="div3" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="31">T</h2>
+    
+        </div>
+          <div id="div4" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag4" width="88" height="31">P</h2>            
+    
+        </div>
+          <div id="div5" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag5" width="88" height="31">I</h2>            
+    
+        </div>
+          <div id="div6" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag6" width="88" height="31">D</h2>            
+    
+        </div>
+          <div id="div7" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag7" width="88" height="31">A</h2>            
+    
+        </div>
+          <div id="div8" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag8" width="88" height="31">S</h2>            
+    
+        </div>
+          <div id="div9" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag9" width="88" height="31">E</h2>            
+    
+        </div>
+          <div id="div10" class="dragdiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2  draggable="true" ondragstart="drag(event)" id="drag10" width="88" height="31">N</h2>            
+    
+        </div>
+          
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">Great! That Was Right</div>
+      </div>
+      <div class="modal-body">
+          <h3>What Does Pedestrian Crossing Tell Us ?</h3>
+        <p>This sign cautions the driver to either slow down or stop the vehicle and allow the pedestrian to cross the road. The part of road is also demarcated in white strips known as zebra crossing.</p>
+        </div>
+    <a href="../level.html">
+        <button class='next'>Next</button>
+    </a>
+    </div>
+    <div id="overlay"></div>
+
+    <script src="puzzle_index.js"></script>      
+</body>
+</html>

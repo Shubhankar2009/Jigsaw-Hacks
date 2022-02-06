@@ -1,0 +1,156 @@
+.image{
+    height: 250px;
+    width: 250px;
+    margin-left: 43%;
+}
+
+.dragdiv{
+    width: 100px;
+    height: 90px;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;
+}
+.answer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.submit{
+    margin-left: 45%;
+    height: 70px;
+    width: 200px;
+    padding: 5px;
+    color: black;
+    background-color: yellow;
+    font-size: 30px;
+    margin-top: 3%;
+}
+
+.submit:hover{
+    border: 5px solid red;
+    cursor: pointer;
+}
+
+.question{
+    font-size: 50px;
+    margin-top: 1%;
+    text-align: center;
+
+}
+
+@media (max-width:425px) {
+    .question{
+        font-size: 30px;
+    }
+    .image{
+        height: 150px;
+        width: 150px;
+        margin-left: 28%;
+    }
+    .dragdiv{
+        width: 60px;
+        height: 50px;
+        padding: 3px;
+        border: 1px solid  black;
+        font-size: 15px;
+    }
+
+    .options{
+        padding: 1px;
+    }
+    .answer{
+        padding: 1px;
+    }
+
+    .submit{
+        margin-left: 35%;
+        height: 60px;
+        width: 100px;
+        padding: 5px;
+        font-size: 20px;
+        margin-top: 3%;
+    }
+}
+
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+.next{
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+}
